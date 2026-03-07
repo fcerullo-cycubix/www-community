@@ -256,6 +256,8 @@ To receive early feedback, please:
 
 The existing Juicy Chat Bot was created during a previous GSoC project and is based on a traditional NLP approach. While functional, it does not leverage the advanced capabilities of modern Large Language Models (LLMs) and Generative AI. This project aims to implement a "v2" or "advanced" version of the chatbot using today's AI tools. The goal is to enhance the chatbot's interaction quality and introduce new challenges related to AI security, such as prompt injection or data leakage. A critical requirement is to maintain the project's low deployment complexity. Any proposed solution must fit within the existing single-container setup of Juice Shop and should avoid introducing heavy external dependencies or requiring specialized hardware. The project will involve researching and selecting appropriate LLMs, designing a secure and efficient solution architecture, and implementing the new chatbot. The project will also include coming up with a way to offer the old and new chatbots side-by-side in a realistic way that could occur in real-world scenarios.
 
+> **Note:** Students are encouraged to suggest additional LLMAI-related challenge ideas above and beyond the chatbot upgrade, such as building adversarial prompt injection demos or creating interactive labs that teach safe AI practices.
+
 ###### Your own idea
 
 ![Preferred for "Medium" GSoC 2026 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
